@@ -14,7 +14,9 @@ while option != 0:
         print(estoque_mercado)
         break
     elif option == 2:
-                    
+        estoque_mercado = input("O que deseja adicionar? ")
+        break
     elif option == 3:
         print("Fechando sistema!")
         break
+
